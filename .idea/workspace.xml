@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f92c380c-fb8a-48c3-b077-167fea805923" name="Default Changelist" comment="" />
+    <list default="true" id="f92c380c-fb8a-48c3-b077-167fea805923" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/accounts/status.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VZXsA3lClwtlhWRI9ntrYdIZf8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,14 +54,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="django3_crm.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="localhost" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -84,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577461794589</updated>
       <workItem from="1577461873461" duration="1824000" />
+      <workItem from="1578229395277" duration="838000" />
     </task>
     <servers />
   </component>
@@ -91,21 +102,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="83" key="GridCell.Tab.0.bottom" timestamp="1577461934364">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1545" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578229447827">
+      <screen x="1440" y="23" width="1280" height="1001" />
+    </state>
+    <state x="1545" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578229447827" />
+    <state width="1237" height="299" key="GridCell.Tab.0.bottom" timestamp="1578229967727">
+      <screen x="1440" y="23" width="1280" height="1001" />
     </state>
     <state width="1877" height="83" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1577461934364" />
-    <state width="1877" height="83" key="GridCell.Tab.0.center" timestamp="1577461934364">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1237" height="299" key="GridCell.Tab.0.bottom/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578229967727" />
+    <state width="1237" height="299" key="GridCell.Tab.0.center" timestamp="1578229967726">
+      <screen x="1440" y="23" width="1280" height="1001" />
     </state>
     <state width="1877" height="83" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1577461934364" />
-    <state width="1877" height="83" key="GridCell.Tab.0.left" timestamp="1577461934363">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1237" height="299" key="GridCell.Tab.0.center/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578229967726" />
+    <state width="1237" height="299" key="GridCell.Tab.0.left" timestamp="1578229967725">
+      <screen x="1440" y="23" width="1280" height="1001" />
     </state>
     <state width="1877" height="83" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1577461934363" />
-    <state width="1877" height="83" key="GridCell.Tab.0.right" timestamp="1577461934364">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1237" height="299" key="GridCell.Tab.0.left/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578229967725" />
+    <state width="1237" height="299" key="GridCell.Tab.0.right" timestamp="1578229967727">
+      <screen x="1440" y="23" width="1280" height="1001" />
     </state>
     <state width="1877" height="83" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1577461934364" />
+    <state width="1237" height="299" key="GridCell.Tab.0.right/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578229967727" />
   </component>
 </project>
