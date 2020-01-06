@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f92c380c-fb8a-48c3-b077-167fea805923" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0002_order_product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0003_auto_20200105_1413.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0004_auto_20200105_1414.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0005_auto_20200105_1417.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0006_auto_20200105_1421.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/0007_auto_20200105_1632.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/migrations/0008_order_note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/order_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accounts/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2dddcd5e-8d2f-46f9-86a2-9f8032b218e8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2dddcd5e-8d2f-46f9-86a2-9f8032b218e8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/django3_crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django3_crm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
@@ -22,9 +20,6 @@
       <change beforePath="$PROJECT_DIR$/django3_crm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django3_crm/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/accounts/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/customer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/accounts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/status.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/status.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +47,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -62,7 +57,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VZXsA3lClwtlhWRI9ntrYdIZf8" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -93,9 +88,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="django3_crm.settings" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -154,33 +149,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="v2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1545" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578229447827">
-      <screen x="1440" y="23" width="1280" height="1001" />
+    <state x="158" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578298915083">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="158" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1578298915083" />
     <state x="1545" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578229447827" />
+    <state x="679" y="145" key="#django3_crm" timestamp="1578298949905">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="679" y="145" key="#django3_crm/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1578298949905" />
     <state x="1691" y="161" key="CommitChangelistDialog2" timestamp="1578230277229">
       <screen x="1440" y="23" width="1280" height="1001" />
     </state>
     <state x="1691" y="161" key="CommitChangelistDialog2/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578230277229" />
-    <state width="1237" height="145" key="GridCell.Tab.0.bottom" timestamp="1578241988818">
-      <screen x="1440" y="23" width="1280" height="1001" />
+    <state x="694" y="288" key="EnvironmentVariablesDialog" timestamp="1578298940697">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="83" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1577461934364" />
+    <state x="694" y="288" key="EnvironmentVariablesDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1578298940697" />
+    <state width="1877" height="164" key="GridCell.Tab.0.bottom" timestamp="1578312614251">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1578312614251" />
     <state width="1237" height="145" key="GridCell.Tab.0.bottom/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578241988818" />
-    <state width="1237" height="145" key="GridCell.Tab.0.center" timestamp="1578241988817">
-      <screen x="1440" y="23" width="1280" height="1001" />
+    <state width="1877" height="164" key="GridCell.Tab.0.center" timestamp="1578312614251">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="83" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1577461934364" />
+    <state width="1877" height="164" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1578312614251" />
     <state width="1237" height="145" key="GridCell.Tab.0.center/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578241988817" />
-    <state width="1237" height="145" key="GridCell.Tab.0.left" timestamp="1578241988816">
-      <screen x="1440" y="23" width="1280" height="1001" />
+    <state width="1877" height="164" key="GridCell.Tab.0.left" timestamp="1578312614251">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="83" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1577461934363" />
+    <state width="1877" height="164" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1578312614251" />
     <state width="1237" height="145" key="GridCell.Tab.0.left/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578241988816" />
-    <state width="1237" height="145" key="GridCell.Tab.0.right" timestamp="1578241988817">
-      <screen x="1440" y="23" width="1280" height="1001" />
+    <state width="1877" height="164" key="GridCell.Tab.0.right" timestamp="1578312614251">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="83" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1577461934364" />
+    <state width="1877" height="164" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1578312614251" />
     <state width="1237" height="145" key="GridCell.Tab.0.right/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578241988817" />
     <state width="1237" height="151" key="GridCell.Tab.1.bottom" timestamp="1578233598166">
       <screen x="1440" y="23" width="1280" height="1001" />
@@ -202,9 +206,10 @@
       <screen x="1440" y="23" width="1280" height="1001" />
     </state>
     <state width="219" height="457" key="HiddenNamespacesPopup/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578231361100" />
-    <state x="1589" y="198" key="SettingsEditor" timestamp="1578230649154">
-      <screen x="1440" y="23" width="1280" height="1001" />
+    <state x="224" y="184" key="SettingsEditor" timestamp="1578298900273">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="224" y="184" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1578298900273" />
     <state x="1589" y="198" key="SettingsEditor/1440.23.1280.1001/0.23.1440.826@1440.23.1280.1001" timestamp="1578230649154" />
     <state x="1680" y="299" key="Vcs.Push.Dialog.v2" timestamp="1578230290209">
       <screen x="1440" y="23" width="1280" height="1001" />
